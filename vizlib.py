@@ -1,0 +1,166 @@
+"""Small matplotlib visualization library with modern aesthetics for pandas data."""
+import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
+
+# Validated categorical palette (fixed order = CVD-safe; do not reorder/cycle).
+CATEGORICAL = {
+    "light": ["#2a78d6", "#eb6834", "#1baf7a", "#eda100",
+              "#e87ba4", "#008300", "#4a3aa7", "#e34948"],
+    "dark":  ["#3987e5", "#d95926", "#199e70", "#c98500",
+              "#d55181", "#008300", "#9085e9", "#e66767"],
+}
+SEQUENTIAL = {"light": ["#cde2fb", "#3987e5", "#0d366b"],
+              "dark":  ["#184f95", "#5598e7", "#cde2fb"]}
+DIVERGING = {"light": ["#e34948", "#f0efec", "#2a78d6"],
+             "dark":  ["#e66767", "#383835", "#3987e5"]}
+CHROME = {
+    "light": dict(surface="#fcfcfb", ink="#0b0b0b", ink2="#52514e",
+                   muted="#898781", grid="#e1e0d9", axis="#c3c2b7"),
+    "dark":  dict(surface="#1a1a19", ink="#ffffff", ink2="#c3c2b7",
+                   muted="#898781", grid="#2c2c2a", axis="#383835"),
+}
+OTHER_COLOR = "#b3b1a8"
+
+
+def _mode(dark):
+    return "dark" if dark else "light"
+
+
+def palette(n, dark=False):
+    """First n categorical colors in fixed order; extras fold to a neutral 'Other'."""
+    colors = CATEGORICAL[_mode(dark)]
+    if n <= len(colors):
+        return colors[:n]
+    return colors + [OTHER_COLOR] * (n - len(colors))
+
+
+def apply_theme(dark=False):
+    """Set global rcParams for a clean, modern look."""
+    c = CHROME[_mode(dark)]
+    plt.rcParams.update({
+        "figure.facecolor": c["surface"],
+        "axes.facecolor": c["surface"],
+        "savefig.facecolor": c["surface"],
+        "font.family": "sans-serif",
+        "font.size": 11,
+        "text.color": c["ink"],
+        "axes.edgecolor": c["axis"],
+        "axes.labelcolor": c["ink2"],
+        "axes.titlecolor": c["ink"],
+        "axes.titleweight": "bold",
+        "axes.titlelocation": "left",
+        "axes.spines.top": False,
+        "axes.spines.right": False,
+        "axes.grid": True,
+        "axes.grid.axis": "y",
+        "axes.axisbelow": True,
+        "grid.color": c["grid"],
+        "grid.linewidth": 0.8,
+        "xtick.color": c["muted"],
+        "ytick.color": c["muted"],
+        "legend.frameon": False,
+        "legend.fontsize": 10,
+    })
+
+
+def _finish(ax, dark, title=None, legend=False, grid="y"):
+    c = CHROME[_mode(dark)]
+    ax.set_facecolor(c["surface"])
+    ax.figure.set_facecolor(c["surface"])
+    for side in ("bottom", "left"):
+        ax.spines[side].set_color(c["axis"])
+    for side in ("top", "right"):
+        ax.spines[side].set_visible(False)
+    if grid:
+        ax.grid(True, axis=grid, color=c["grid"], linewidth=0.8)
+    else:
+        ax.grid(False)
+    ax.set_axisbelow(True)
+    ax.tick_params(length=0, colors=c["muted"], labelcolor=c["muted"])
+    ax.xaxis.label.set_color(c["ink2"])
+    ax.yaxis.label.set_color(c["ink2"])
+    if title:
+        ax.set_title(title, pad=12, loc="left", fontweight="bold", color=c["ink"])
+    if legend and len(ax.get_legend_handles_labels()[0]) > 1:
+        leg = ax.legend(loc="upper left", bbox_to_anchor=(1.0, 1.0), frameon=False)
+        for text in leg.get_texts():
+            text.set_color(c["ink2"])
+    return ax
+
+
+def line(df, x=None, y=None, ax=None, dark=False, title=None):
+    """Line chart: one line per column in y (default: all numeric columns)."""
+    apply_theme(dark)
+    ax = ax or plt.gca()
+    xs = df[x] if x else df.index
+    cols = y if y else [c for c in df.columns if c != x]
+    for color, col in zip(palette(len(cols), dark), cols):
+        ax.plot(xs, df[col], color=color, linewidth=2, solid_capstyle="round", label=col)
+    return _finish(ax, dark, title, legend=True)
+
+
+def bar(df, x, y, ax=None, dark=False, title=None, horizontal=False):
+    """Bar chart: one bar per row of x, one series per column in y."""
+    apply_theme(dark)
+    ax = ax or plt.gca()
+    cols = y if isinstance(y, (list, tuple)) else [y]
+    colors = palette(len(cols), dark)
+    n = len(cols)
+    width = 0.8 / n
+    positions = range(len(df))
+    for i, (color, col) in enumerate(zip(colors, cols)):
+        offset = (i - (n - 1) / 2) * width
+        pos = [p + offset for p in positions]
+        vals = df[col]
+        if horizontal:
+            ax.barh(pos, vals, height=width * 0.92, color=color, label=col)
+        else:
+            ax.bar(pos, vals, width=width * 0.92, color=color, label=col)
+    axis = ax.set_yticks if horizontal else ax.set_xticks
+    axis(list(positions))
+    labels = ax.set_yticklabels if horizontal else ax.set_xticklabels
+    labels(df[x])
+    return _finish(ax, dark, title, legend=True, grid="x" if horizontal else "y")
+
+
+def scatter(df, x, y, hue=None, ax=None, dark=False, title=None):
+    """Scatter plot, optionally colored by a categorical column `hue`."""
+    apply_theme(dark)
+    ax = ax or plt.gca()
+    if hue:
+        groups = list(df[hue].unique())
+        if len(groups) > 8:
+            raise ValueError("scatter hue supports at most 8 categories; "
+                              "aggregate or facet beyond that for CVD safety")
+        for color, g in zip(palette(len(groups), dark), groups):
+            sub = df[df[hue] == g]
+            ax.scatter(sub[x], sub[y], color=color, s=36, alpha=0.9,
+                       edgecolors=CHROME[_mode(dark)]["surface"], linewidths=0.5, label=g)
+    else:
+        ax.scatter(df[x], df[y], color=palette(1, dark)[0], s=36, alpha=0.9,
+                   edgecolors=CHROME[_mode(dark)]["surface"], linewidths=0.5)
+    ax.set_xlabel(x)
+    ax.set_ylabel(y)
+    return _finish(ax, dark, title, legend=bool(hue))
+
+
+def heatmap(df, ax=None, dark=False, title=None, diverging=False):
+    """Heatmap of a numeric DataFrame; sequential by default, diverging if signed."""
+    apply_theme(dark)
+    ax = ax or plt.gca()
+    ramp = DIVERGING[_mode(dark)] if diverging else SEQUENTIAL[_mode(dark)]
+    cmap = LinearSegmentedColormap.from_list("ramp", ramp)
+    vmax = df.abs().to_numpy().max() if diverging else None
+    vmin = -vmax if diverging else None
+    im = ax.imshow(df.to_numpy(), cmap=cmap, aspect="auto", vmin=vmin, vmax=vmax)
+    ax.set_xticks(range(len(df.columns)))
+    ax.set_xticklabels(df.columns, rotation=45, ha="right")
+    ax.set_yticks(range(len(df.index)))
+    ax.set_yticklabels(df.index)
+    plt.colorbar(im, ax=ax, fraction=0.046, pad=0.04)
+    return _finish(ax, dark, title, grid=None)
+
+
+def save(fig, path, dark=False, dpi=200):
+    """Save a figure with the correct theme background baked in."""
+    fig.savefig(path, dpi=dpi, facecolor=CHROME[_mode(dark)]["surface"], bbox_inches="tight")
