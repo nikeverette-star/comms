@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 *.png
+# except the committed demo showcase used in the README
+!demo_light.png
+!demo_dark.png
