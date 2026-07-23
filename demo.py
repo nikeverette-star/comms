@@ -67,3 +67,16 @@ for dark in (False, True):
     path = "demo_dark.png" if dark else "demo_light.png"
     vz.save(fig, path, dark=dark)
     print("Saved", path)
+
+# 7. Histogram — its own aesthetic: a pastel color wheel on a lighter (white)
+# background, distinct from the CVD-safe theme the six charts above share.
+scores = pd.DataFrame({
+    "control":   rng.normal(50, 10, 600),
+    "variant A": rng.normal(58, 12, 600),
+    "variant B": rng.normal(46, 8, 600),
+})
+fig = plt.figure(figsize=(8, 4.5))
+vz.histogram(scores, ax=fig.subplots(), title="Score distribution")
+fig.tight_layout()
+vz.save(fig, "demo_histogram.png", dark="pastel")
+print("Saved demo_histogram.png")

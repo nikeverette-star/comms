@@ -1,6 +1,6 @@
 # vizlib
 
-A tiny matplotlib visualization library (~190 lines) for **pandas DataFrames**,
+A tiny matplotlib visualization library (under 200 lines) for **pandas DataFrames**,
 with modern, minimal aesthetics and a **colorblind-safe** palette that works in
 both light and dark modes.
 
@@ -39,8 +39,9 @@ vz.save(fig, "chart.png")          # background baked in for the chosen mode
 
 ## Examples
 
-Six chart types, all from pandas DataFrames under the same criteria. Run
-`python demo.py` to regenerate both images below.
+Chart types built from pandas DataFrames. The six below share one criteria set
+(CVD-safe palette, light/dark parity); the histogram uses its own pastel theme.
+Run `python demo.py` to regenerate every image below.
 
 ### Light mode
 
@@ -49,6 +50,13 @@ Six chart types, all from pandas DataFrames under the same criteria. Run
 ### Dark mode
 
 ![The same six examples in dark mode](demo_dark.png)
+
+### Histogram (pastel wheel, lighter background)
+
+`histogram()` deliberately uses a different look from the six charts above — a
+pastel color wheel on a white background — for overlaid distributions.
+
+![Overlaid histogram with a pastel palette on a white background](demo_histogram.png)
 
 ## API
 
@@ -61,8 +69,10 @@ a `dark=False` flag, and an optional `title`.
 | `bar(df, x, y, ax=None, dark=False, title=None, horizontal=False)` | Grouped bars: one group per row of `x`, one series per column in `y` (a single string works too). `horizontal=True` for a ranking. |
 | `scatter(df, x, y, hue=None, ax=None, dark=False, title=None)` | Scatter of `x` vs `y`, optionally colored by categorical `hue` (max 3 groups — the colorblind-safe limit for scatter). |
 | `heatmap(df, ax=None, dark=False, title=None, diverging=False)` | Heatmap of a numeric DataFrame. Sequential single-hue ramp by default; `diverging=True` for signed data (gray at zero). |
-| `save(fig, path, dark=False, dpi=200)` | Save a figure with the correct theme background. |
+| `histogram(df, columns=None, bins=20, ax=None, title=None, alpha=0.8)` | Overlaid histogram of numeric columns using a **pastel color wheel** on a **white** background. `columns` defaults to all numeric columns. |
+| `save(fig, path, dark=False, dpi=200)` | Save a figure with the correct theme background. `dark` may be a bool or a theme key (e.g. `"pastel"`). |
 | `palette(n, dark=False)` | The first `n` categorical colors in fixed order. |
+| `pastel_wheel(n, lightness=0.82, saturation=0.55)` | `n` evenly-spaced pastel hues around the color wheel. |
 | `apply_theme(dark=False)` | Apply the global rcParams theme (called for you by every chart). |
 
 ## Design notes

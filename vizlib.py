@@ -1,4 +1,5 @@
 """Small matplotlib visualization library with modern aesthetics for pandas data."""
+import colorsys
 import warnings
 
 import matplotlib.pyplot as plt
@@ -20,6 +21,8 @@ CHROME = {
                    muted="#898781", grid="#e1e0d9", axis="#c3c2b7"),
     "dark":  dict(surface="#1a1a19", ink="#ffffff", ink2="#c3c2b7",
                    muted="#898781", grid="#2c2c2a", axis="#383835"),
+    "pastel": dict(surface="#ffffff", ink="#2b2b2b", ink2="#6b6a67",
+                   muted="#a5a4a0", grid="#ededeb", axis="#dcdbd6"),
 }
 OTHER_COLOR = "#b3b1a8"
 MAX_SERIES = 8        # categorical slots before folding to "Other"
@@ -28,6 +31,12 @@ MAX_SCATTER_HUE = 3   # all-pairs CVD-safe limit for scatter (see palette.md)
 
 def _mode(dark):
     return "dark" if dark else "light"
+
+
+def pastel_wheel(n, lightness=0.82, saturation=0.55):
+    """n evenly-spaced pastel hues around the color wheel, as hex."""
+    return ["#%02x%02x%02x" % tuple(round(255 * v) for v in
+            colorsys.hls_to_rgb(i / max(n, 1), lightness, saturation)) for i in range(n)]
 
 
 def palette(n, dark=False):
@@ -57,7 +66,7 @@ def _series(df, cols, dark):
 
 
 def apply_theme(dark=False):
-    """Set global rcParams for a clean, modern look."""
+    """Set base rcParams (typography, surface, tick/text ink — the last covers colorbars)."""
     c = CHROME[_mode(dark)]
     plt.rcParams.update({
         "figure.facecolor": c["surface"],
@@ -66,27 +75,14 @@ def apply_theme(dark=False):
         "font.family": "sans-serif",
         "font.size": 11,
         "text.color": c["ink"],
-        "axes.edgecolor": c["axis"],
-        "axes.labelcolor": c["ink2"],
-        "axes.titlecolor": c["ink"],
-        "axes.titleweight": "bold",
-        "axes.titlelocation": "left",
-        "axes.spines.top": False,
-        "axes.spines.right": False,
-        "axes.grid": True,
-        "axes.grid.axis": "y",
-        "axes.axisbelow": True,
-        "grid.color": c["grid"],
-        "grid.linewidth": 0.8,
         "xtick.color": c["muted"],
         "ytick.color": c["muted"],
-        "legend.frameon": False,
         "legend.fontsize": 10,
     })
 
 
-def _finish(ax, dark, title=None, legend=False, grid="y"):
-    c = CHROME[_mode(dark)]
+def _finish(ax, theme, title=None, legend=False, grid="y"):
+    c = CHROME[theme if isinstance(theme, str) else _mode(theme)]
     ax.set_facecolor(c["surface"])
     ax.figure.set_facecolor(c["surface"])
     for side in ("bottom", "left"):
@@ -184,6 +180,19 @@ def heatmap(df, ax=None, dark=False, title=None, diverging=False):
     return _finish(ax, dark, title, grid=None)
 
 
+def histogram(df, columns=None, bins=20, ax=None, title=None, alpha=0.8):
+    """Overlaid histogram of numeric columns: pastel color wheel on a white ground."""
+    apply_theme(False)
+    ax = ax or plt.gca()
+    cols = list(columns) if columns is not None else list(df.select_dtypes("number").columns)
+    for color, col in zip(pastel_wheel(len(cols)), cols):
+        ax.hist(df[col].dropna(), bins=bins, color=color, alpha=alpha,
+                edgecolor="#9b9a97", linewidth=0.8, label=col)
+    ax.set_ylabel("count")
+    return _finish(ax, "pastel", title, legend=len(cols) > 1)
+
+
 def save(fig, path, dark=False, dpi=200):
-    """Save a figure with the correct theme background baked in."""
-    fig.savefig(path, dpi=dpi, facecolor=CHROME[_mode(dark)]["surface"], bbox_inches="tight")
+    """Save a figure with the theme background baked in; `dark` may be a theme key."""
+    theme = dark if isinstance(dark, str) else _mode(dark)
+    fig.savefig(path, dpi=dpi, facecolor=CHROME[theme]["surface"], bbox_inches="tight")

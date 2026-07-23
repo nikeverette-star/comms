@@ -4,3 +4,4 @@ __pycache__/
 # except the committed demo showcase used in the README
 !demo_light.png
 !demo_dark.png
+!demo_histogram.png
