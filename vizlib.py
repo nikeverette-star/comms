@@ -1,4 +1,6 @@
 """Small matplotlib visualization library with modern aesthetics for pandas data."""
+import warnings
+
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
@@ -20,6 +22,8 @@ CHROME = {
                    muted="#898781", grid="#2c2c2a", axis="#383835"),
 }
 OTHER_COLOR = "#b3b1a8"
+MAX_SERIES = 8        # categorical slots before folding to "Other"
+MAX_SCATTER_HUE = 3   # all-pairs CVD-safe limit for scatter (see palette.md)
 
 
 def _mode(dark):
@@ -27,11 +31,29 @@ def _mode(dark):
 
 
 def palette(n, dark=False):
-    """First n categorical colors in fixed order; extras fold to a neutral 'Other'."""
+    """First n categorical colors in fixed order; extras fall back to a neutral gray."""
     colors = CATEGORICAL[_mode(dark)]
     if n <= len(colors):
         return colors[:n]
     return colors + [OTHER_COLOR] * (n - len(colors))
+
+
+def _series(df, cols, dark):
+    """Yield (label, values, color) per series, folding any overflow past
+    MAX_SERIES into a single gray 'Other' (row-wise sum) so no two series
+    ever share a color."""
+    cols = list(cols)
+    if len(cols) <= MAX_SERIES:
+        for color, col in zip(palette(len(cols), dark), cols):
+            yield col, df[col], color
+        return
+    warnings.warn(
+        f"{len(cols)} series exceeds {MAX_SERIES}; folding the last "
+        f"{len(cols) - MAX_SERIES + 1} into 'Other'", stacklevel=3)
+    keep = cols[:MAX_SERIES - 1]
+    for color, col in zip(CATEGORICAL[_mode(dark)], keep):
+        yield col, df[col], color
+    yield "Other", df[cols[MAX_SERIES - 1:]].sum(axis=1), OTHER_COLOR
 
 
 def apply_theme(dark=False):
@@ -93,9 +115,9 @@ def line(df, x=None, y=None, ax=None, dark=False, title=None):
     apply_theme(dark)
     ax = ax or plt.gca()
     xs = df[x] if x else df.index
-    cols = y if y else [c for c in df.columns if c != x]
-    for color, col in zip(palette(len(cols), dark), cols):
-        ax.plot(xs, df[col], color=color, linewidth=2, solid_capstyle="round", label=col)
+    cols = y if y else [c for c in df.select_dtypes("number").columns if c != x]
+    for label, vals, color in _series(df, cols, dark):
+        ax.plot(xs, vals, color=color, linewidth=2, solid_capstyle="round", label=label)
     return _finish(ax, dark, title, legend=True)
 
 
@@ -104,18 +126,17 @@ def bar(df, x, y, ax=None, dark=False, title=None, horizontal=False):
     apply_theme(dark)
     ax = ax or plt.gca()
     cols = y if isinstance(y, (list, tuple)) else [y]
-    colors = palette(len(cols), dark)
-    n = len(cols)
+    series = list(_series(df, cols, dark))
+    n = len(series)
     width = 0.8 / n
     positions = range(len(df))
-    for i, (color, col) in enumerate(zip(colors, cols)):
+    for i, (label, vals, color) in enumerate(series):
         offset = (i - (n - 1) / 2) * width
         pos = [p + offset for p in positions]
-        vals = df[col]
         if horizontal:
-            ax.barh(pos, vals, height=width * 0.92, color=color, label=col)
+            ax.barh(pos, vals, height=width * 0.92, color=color, label=label)
         else:
-            ax.bar(pos, vals, width=width * 0.92, color=color, label=col)
+            ax.bar(pos, vals, width=width * 0.92, color=color, label=label)
     axis = ax.set_yticks if horizontal else ax.set_xticks
     axis(list(positions))
     labels = ax.set_yticklabels if horizontal else ax.set_xticklabels
@@ -129,9 +150,11 @@ def scatter(df, x, y, hue=None, ax=None, dark=False, title=None):
     ax = ax or plt.gca()
     if hue:
         groups = list(df[hue].unique())
-        if len(groups) > 8:
-            raise ValueError("scatter hue supports at most 8 categories; "
-                              "aggregate or facet beyond that for CVD safety")
+        if len(groups) > MAX_SCATTER_HUE:
+            raise ValueError(
+                f"scatter hue supports at most {MAX_SCATTER_HUE} categories "
+                f"(got {len(groups)}); beyond that the palette is not colorblind-safe "
+                "for scatter — facet into small multiples or add a marker-shape encoding")
         for color, g in zip(palette(len(groups), dark), groups):
             sub = df[df[hue] == g]
             ax.scatter(sub[x], sub[y], color=color, s=36, alpha=0.9,
