@@ -1,0 +1,955 @@
+name,hex,hue,lightness,saturation,family
+purple,#7e1e9c,285.71,0.365,0.677,violet
+green,#15b01a,121.94,0.386,0.787,green
+blue,#0343df,222.55,0.443,0.973,azure
+pink,#ff81c0,330.0,0.753,1.0,rose
+brown,#653700,32.67,0.198,1.0,orange
+red,#e50000,0.0,0.449,1.0,red
+light blue,#95d0fc,205.63,0.786,0.945,cyan
+teal,#029386,174.62,0.292,0.973,teal
+orange,#f97306,26.91,0.5,0.953,red
+light green,#96f97b,107.14,0.729,0.913,chartreuse
+magenta,#c20078,322.89,0.38,1.0,magenta
+yellow,#ffff14,60.0,0.539,1.0,yellow
+sky blue,#75bbfd,209.12,0.725,0.971,cyan
+grey,#929591,105.0,0.576,0.019,grey
+lime green,#89fe05,88.19,0.508,0.992,yellow
+light purple,#bf77f6,274.02,0.716,0.876,violet
+violet,#9a0eea,278.18,0.486,0.887,violet
+dark green,#033500,116.6,0.104,1.0,chartreuse
+turquoise,#06c2ac,172.98,0.392,0.94,teal
+lavender,#c79fef,270.0,0.78,0.714,violet
+dark blue,#00035b,238.02,0.178,1.0,azure
+tan,#d1b26f,41.02,0.627,0.516,orange
+cyan,#00ffff,180.0,0.5,1.0,cyan
+aqua,#13eac9,170.79,0.496,0.85,teal
+forest green,#06470c,125.54,0.151,0.844,green
+mauve,#ae7181,344.26,0.563,0.274,rose
+dark purple,#35063e,290.36,0.133,0.824,violet
+bright green,#01ff07,121.42,0.502,1.0,green
+maroon,#650021,340.4,0.198,1.0,rose
+olive,#6e750e,64.08,0.257,0.786,yellow
+salmon,#ff796c,5.31,0.712,1.0,red
+beige,#e6daa6,48.75,0.776,0.561,orange
+royal blue,#0504aa,240.36,0.341,0.954,blue
+navy blue,#001146,225.43,0.137,1.0,azure
+lilac,#cea2fd,269.01,0.814,0.958,blue
+black,#000000,0.0,0.0,0.0,grey
+hot pink,#ff028d,327.04,0.504,1.0,magenta
+light brown,#ad8150,31.61,0.496,0.368,orange
+pale green,#c7fdb5,105.0,0.851,0.947,chartreuse
+peach,#ffb07c,23.82,0.743,1.0,red
+olive green,#677a04,69.66,0.247,0.937,yellow
+dark pink,#cb416b,341.74,0.525,0.57,rose
+periwinkle,#8e82fe,245.81,0.753,0.984,blue
+sea green,#53fca1,147.69,0.657,0.966,green
+lime,#aaff32,84.88,0.598,1.0,yellow
+indigo,#380282,265.31,0.259,0.97,blue
+mustard,#ceb301,52.1,0.406,0.99,orange
+light pink,#ffd1df,341.74,0.91,1.0,rose
+rose,#cf6275,349.54,0.598,0.532,rose
+bright blue,#0165fc,216.1,0.496,0.992,azure
+neon green,#0cff0c,120.0,0.524,1.0,green
+burnt orange,#c04e01,24.19,0.378,0.99,red
+aquamarine,#04d8b2,169.25,0.431,0.964,teal
+navy,#01153e,220.33,0.124,0.968,azure
+grass green,#3f9b0b,98.33,0.325,0.867,chartreuse
+pale blue,#d0fefe,180.0,0.906,0.958,cyan
+dark red,#840000,0.0,0.259,1.0,red
+bright purple,#be03fd,284.88,0.502,0.984,violet
+yellow green,#c0fb2d,77.18,0.58,0.963,yellow
+baby blue,#a2cffe,210.65,0.816,0.979,azure
+gold,#dbb40c,48.7,0.453,0.896,orange
+mint green,#8fff9f,128.57,0.78,1.0,green
+plum,#580f41,318.9,0.202,0.709,magenta
+royal purple,#4b006e,280.91,0.216,1.0,violet
+brick red,#8f1402,7.66,0.284,0.972,red
+dark teal,#014d4e,180.78,0.155,0.975,cyan
+burgundy,#610023,338.35,0.19,1.0,rose
+khaki,#aaa662,56.67,0.525,0.298,orange
+blue green,#137e6d,170.47,0.284,0.738,teal
+seafoam green,#7af9ab,143.15,0.727,0.914,green
+kelly green,#02ab2e,135.62,0.339,0.977,green
+puke green,#9aae07,67.19,0.355,0.923,yellow
+pea green,#8eab12,71.37,0.371,0.81,yellow
+taupe,#b9a281,35.36,0.616,0.286,orange
+dark brown,#341c02,31.2,0.106,0.926,orange
+deep purple,#36013f,291.29,0.125,0.969,violet
+chartreuse,#c1f80a,73.87,0.506,0.944,yellow
+bright pink,#fe01b1,318.26,0.5,0.992,magenta
+light orange,#fdaa48,32.49,0.637,0.978,orange
+mint,#9ffeb0,130.74,0.81,0.979,green
+pastel green,#b0ff9d,108.37,0.808,1.0,chartreuse
+sand,#e2ca76,46.67,0.675,0.651,orange
+dark orange,#c65102,24.18,0.392,0.98,red
+spring green,#a9f971,95.29,0.71,0.919,chartreuse
+puce,#a57e52,31.81,0.484,0.336,orange
+seafoam,#80f9ad,142.31,0.739,0.91,green
+grey blue,#6b8ba4,206.32,0.531,0.238,cyan
+army green,#4b5d16,75.21,0.225,0.617,yellow
+dark grey,#363737,180.0,0.214,0.009,grey
+dark yellow,#d5b60a,50.84,0.437,0.91,orange
+goldenrod,#fac205,46.29,0.5,0.961,orange
+slate,#516572,203.64,0.382,0.169,cyan
+light teal,#90e4c1,155.0,0.729,0.609,teal
+rust,#a83c09,19.25,0.347,0.898,red
+deep blue,#040273,241.06,0.229,0.966,blue
+pale pink,#ffcfdc,343.75,0.906,1.0,rose
+cerulean,#0485d1,202.24,0.418,0.962,cyan
+light red,#ff474c,358.37,0.639,1.0,rose
+mustard yellow,#d2bd0a,53.7,0.431,0.909,orange
+ochre,#bf9005,44.84,0.384,0.949,orange
+pale yellow,#ffff84,60.0,0.759,1.0,yellow
+crimson,#8c000f,353.57,0.275,1.0,rose
+fuchsia,#ed0dd9,305.36,0.49,0.896,magenta
+hunter green,#0b4008,116.79,0.141,0.778,chartreuse
+blue grey,#607c8e,203.48,0.467,0.193,cyan
+slate blue,#5b7c99,208.06,0.478,0.254,cyan
+pale purple,#b790d4,274.41,0.698,0.442,violet
+sea blue,#047495,193.66,0.3,0.948,cyan
+pinkish purple,#d648d7,299.58,0.563,0.641,violet
+puke,#a5a502,60.0,0.327,0.976,yellow
+light grey,#d8dcd6,100.0,0.851,0.079,grey
+leaf green,#5ca904,88.0,0.339,0.954,yellow
+light yellow,#fffe7a,59.55,0.739,1.0,orange
+eggplant,#380835,303.75,0.125,0.75,magenta
+steel blue,#5a7d9a,207.19,0.478,0.262,cyan
+moss green,#658b38,87.47,0.382,0.426,yellow
+robin's egg blue,#98eff9,186.19,0.786,0.89,cyan
+white,#ffffff,0.0,1.0,0.0,grey
+grey green,#789b73,112.5,0.529,0.167,chartreuse
+sage,#87ae73,99.66,0.567,0.267,chartreuse
+brick,#a03623,9.12,0.382,0.641,red
+burnt sienna,#b04e0f,23.48,0.375,0.843,red
+reddish brown,#7f2b0a,16.92,0.269,0.854,red
+cream,#ffffc2,60.0,0.88,1.0,yellow
+coral,#fc5a50,3.49,0.651,0.966,red
+ocean blue,#03719c,196.86,0.312,0.962,cyan
+greenish,#40a368,144.24,0.445,0.436,green
+dark magenta,#960056,325.6,0.294,1.0,magenta
+red orange,#fd3c06,13.12,0.508,0.984,red
+bluish purple,#703be7,258.49,0.569,0.782,blue
+midnight blue,#020035,242.26,0.104,1.0,blue
+light violet,#d6b4fc,268.33,0.847,0.923,blue
+dusty rose,#c0737a,354.55,0.602,0.379,rose
+medium blue,#2c6fbb,211.89,0.453,0.619,azure
+greenish yellow,#cdfd02,71.47,0.5,0.984,yellow
+yellowish green,#b0dd16,73.57,0.476,0.819,yellow
+purplish blue,#601ef9,258.08,0.547,0.948,blue
+greyish blue,#5e819d,206.67,0.492,0.251,cyan
+grape,#6c3461,311.79,0.314,0.35,magenta
+light olive,#acbf69,73.26,0.58,0.402,yellow
+cornflower blue,#5170d7,226.12,0.58,0.626,azure
+pinkish red,#f10c45,345.07,0.496,0.905,rose
+bright red,#ff000d,356.94,0.5,1.0,rose
+azure,#069af3,202.53,0.488,0.952,cyan
+blue purple,#5729ce,256.73,0.484,0.668,blue
+dark turquoise,#045c5a,178.64,0.188,0.917,teal
+electric blue,#0652ff,221.69,0.512,1.0,azure
+off white,#ffffe4,60.0,0.947,1.0,yellow
+powder blue,#b1d1fc,214.4,0.841,0.926,azure
+wine,#80013f,330.71,0.253,0.984,rose
+dull green,#74a662,104.12,0.518,0.276,chartreuse
+apple green,#76cd26,91.26,0.476,0.687,chartreuse
+light turquoise,#7ef4cc,159.66,0.725,0.843,teal
+neon purple,#bc13fe,283.15,0.535,0.992,violet
+cobalt,#1e488f,217.7,0.339,0.653,azure
+pinkish,#d46a7e,348.68,0.624,0.552,rose
+olive drab,#6f7632,66.18,0.329,0.405,yellow
+dark cyan,#0a888a,180.94,0.29,0.865,cyan
+purple blue,#632de9,257.23,0.545,0.81,blue
+dark violet,#34013f,289.35,0.125,0.969,violet
+dark lavender,#856798,276.73,0.5,0.192,violet
+forrest green,#154406,105.48,0.145,0.838,chartreuse
+vomit,#a2a415,60.84,0.363,0.773,yellow
+pale orange,#ffa756,28.76,0.669,1.0,red
+greenish blue,#0b8b87,178.12,0.294,0.853,teal
+dark tan,#af884a,36.83,0.488,0.406,orange
+green blue,#06b48b,165.86,0.365,0.935,teal
+bluish green,#10a674,160.0,0.357,0.824,teal
+pastel blue,#a2bffe,221.09,0.816,0.979,azure
+moss,#769958,92.31,0.473,0.27,chartreuse
+grass,#5cac2d,97.8,0.425,0.585,chartreuse
+deep pink,#cb0162,331.19,0.4,0.99,rose
+blood red,#980002,359.21,0.298,1.0,rose
+sage green,#88b378,103.73,0.586,0.28,chartreuse
+aqua blue,#02d8e9,184.42,0.461,0.983,cyan
+terracotta,#ca6641,16.2,0.524,0.564,red
+pastel purple,#caa0ff,266.53,0.814,1.0,blue
+sienna,#a9561e,24.17,0.39,0.698,red
+dark olive,#373e02,67.0,0.125,0.938,yellow
+green yellow,#c9ff27,75.0,0.576,1.0,yellow
+scarlet,#be0119,352.38,0.375,0.99,rose
+greyish green,#82a67d,112.68,0.571,0.187,chartreuse
+chocolate,#3d1c02,26.44,0.124,0.937,red
+blue violet,#5d06e9,263.0,0.469,0.95,blue
+cornflower,#6a79f7,233.62,0.692,0.898,azure
+baby pink,#ffb7ce,340.83,0.859,1.0,rose
+charcoal,#343837,165.0,0.212,0.037,grey
+pine green,#0a481e,139.35,0.161,0.756,green
+pumpkin,#e17701,31.61,0.443,0.991,orange
+greenish brown,#696112,54.48,0.241,0.707,orange
+red brown,#8b2e16,12.31,0.316,0.727,red
+brownish green,#6a6e09,62.38,0.233,0.849,yellow
+tangerine,#ff9408,34.01,0.516,1.0,orange
+salmon pink,#fe7b7c,359.54,0.739,0.985,rose
+aqua green,#12e193,157.39,0.476,0.852,teal
+raspberry,#b00149,335.31,0.347,0.989,rose
+greyish purple,#887191,283.12,0.506,0.127,violet
+rose pink,#f7879a,349.82,0.749,0.875,rose
+neon pink,#fe019a,323.72,0.5,0.992,magenta
+cobalt blue,#030aa7,237.44,0.333,0.965,azure
+orange brown,#be6400,31.58,0.373,1.0,orange
+deep red,#9a0200,0.78,0.302,1.0,red
+orange red,#fd411e,9.42,0.555,0.982,red
+dirty yellow,#cdc50a,57.54,0.422,0.907,orange
+orchid,#c875c4,302.89,0.622,0.43,magenta
+reddish pink,#fe2c54,348.57,0.584,0.991,rose
+reddish purple,#910951,328.24,0.302,0.883,magenta
+yellow orange,#fcb001,41.83,0.496,0.992,orange
+light cyan,#acfffc,177.83,0.837,1.0,teal
+sky,#82cafc,204.59,0.749,0.953,cyan
+light magenta,#fa5ff7,301.16,0.676,0.939,magenta
+pale red,#d9544d,3.0,0.576,0.648,red
+emerald,#01a049,147.17,0.316,0.988,green
+dark beige,#ac9362,39.73,0.529,0.308,orange
+ugly green,#7a9703,71.76,0.302,0.961,yellow
+jade,#1fa774,157.5,0.388,0.687,teal
+greenish grey,#96ae8d,103.64,0.618,0.169,chartreuse
+dark salmon,#c85a53,3.59,0.555,0.515,red
+purplish pink,#ce5dae,316.99,0.586,0.536,magenta
+dark aqua,#05696b,181.18,0.22,0.911,cyan
+brownish orange,#cb7723,30.0,0.467,0.706,orange
+light olive green,#a4be5c,75.92,0.553,0.43,yellow
+light aqua,#8cffdb,161.22,0.775,1.0,teal
+clay,#b66a50,15.29,0.514,0.411,red
+medium green,#39ad48,127.76,0.451,0.504,green
+burnt umber,#a0450e,22.6,0.341,0.839,red
+dull blue,#49759c,208.19,0.449,0.362,cyan
+pale brown,#b1916e,31.34,0.563,0.3,orange
+emerald green,#028f1e,131.91,0.284,0.972,green
+brownish,#9c6d57,19.13,0.476,0.284,red
+mud,#735c12,45.77,0.261,0.729,orange
+dark rose,#b5485d,348.44,0.496,0.431,rose
+brownish red,#9e3623,9.27,0.378,0.637,red
+pink purple,#db4bda,300.42,0.576,0.667,magenta
+pinky purple,#c94cbe,305.28,0.543,0.536,magenta
+camo green,#526525,77.81,0.271,0.464,yellow
+faded green,#7bb274,113.23,0.576,0.287,chartreuse
+dusty pink,#d58a94,352.0,0.688,0.472,rose
+purple pink,#e03fd8,302.98,0.563,0.722,magenta
+vomit green,#89a203,69.43,0.324,0.964,yellow
+deep green,#02590f,128.97,0.178,0.956,green
+reddish orange,#f8481c,12.0,0.541,0.94,red
+mahogany,#4a0100,0.81,0.145,1.0,red
+aubergine,#3d0734,310.0,0.133,0.794,magenta
+dull pink,#d5869d,342.53,0.68,0.485,rose
+evergreen,#05472a,153.64,0.149,0.868,teal
+dark sky blue,#448ee4,212.25,0.58,0.748,azure
+very light green,#d1ffbd,101.82,0.871,1.0,chartreuse
+pastel pink,#ffbacd,343.48,0.865,1.0,rose
+grey purple,#826d8c,280.65,0.488,0.124,violet
+very light blue,#d5ffff,180.0,0.918,1.0,cyan
+dark mauve,#874c62,337.63,0.414,0.28,rose
+cadet blue,#4e7496,208.33,0.447,0.316,cyan
+ice blue,#d7fffe,178.5,0.922,1.0,teal
+light tan,#fbeeac,50.13,0.829,0.908,orange
+dirty green,#667e2c,77.56,0.333,0.482,yellow
+neon blue,#04d9ff,189.08,0.508,1.0,cyan
+wine red,#7b0323,344.0,0.247,0.952,rose
+chocolate brown,#411900,23.08,0.127,1.0,red
+dull purple,#84597e,308.37,0.433,0.195,magenta
+yellow brown,#b79400,48.52,0.359,1.0,orange
+denim,#3b638c,210.37,0.39,0.407,azure
+eggshell,#ffffd4,60.0,0.916,1.0,yellow
+jungle green,#048243,150.0,0.263,0.94,teal
+dark peach,#de7e5d,15.35,0.618,0.662,red
+poop,#7f5e00,44.41,0.249,1.0,orange
+umber,#b26400,33.71,0.349,1.0,orange
+light lavender,#dfc5fe,267.37,0.884,0.966,blue
+bright yellow,#fffd01,59.53,0.502,1.0,orange
+golden yellow,#fec615,45.58,0.539,0.991,orange
+dusty blue,#5a86ad,208.19,0.516,0.336,cyan
+electric green,#21fc0d,114.98,0.52,0.976,chartreuse
+lighter green,#75fd63,112.99,0.69,0.975,chartreuse
+slate grey,#59656d,204.0,0.388,0.101,grey
+teal green,#25a36f,155.24,0.392,0.63,teal
+marine blue,#01386a,208.57,0.21,0.981,cyan
+avocado,#90b134,75.84,0.449,0.546,yellow
+terra cotta,#c9643b,17.32,0.51,0.568,red
+dusty purple,#825f87,292.5,0.451,0.174,violet
+light maroon,#a24857,350.0,0.459,0.385,rose
+reddish,#c44240,0.91,0.51,0.528,red
+dark lilac,#9c6da5,290.36,0.537,0.237,violet
+dark periwinkle,#665fd1,243.68,0.596,0.553,blue
+bluish grey,#748b97,200.57,0.524,0.144,cyan
+puke yellow,#c2be0e,58.67,0.408,0.865,orange
+purplish,#94568c,307.74,0.459,0.265,magenta
+ultramarine,#2000b1,250.85,0.347,1.0,blue
+barney purple,#a00498,303.08,0.322,0.951,magenta
+forest,#0b5509,118.42,0.184,0.809,chartreuse
+pea soup,#929901,62.76,0.302,0.987,yellow
+brownish yellow,#c9b003,52.42,0.4,0.971,orange
+bright teal,#01f9c6,167.66,0.49,0.992,teal
+bluegreen,#017a79,179.5,0.241,0.984,teal
+green brown,#544e03,55.56,0.171,0.931,orange
+blurple,#5539cc,251.43,0.512,0.59,blue
+light sky blue,#c6fcff,183.16,0.888,1.0,cyan
+periwinkle blue,#8f99fb,234.44,0.773,0.931,azure
+pale violet,#ceaefa,265.26,0.831,0.884,blue
+darker green,#087804,117.93,0.243,0.935,chartreuse
+true blue,#010fcc,235.86,0.402,0.99,azure
+green grey,#77926f,106.29,0.504,0.138,chartreuse
+grey brown,#7f7053,39.55,0.412,0.21,orange
+dark olive green,#3c4d03,73.78,0.157,0.925,yellow
+apricot,#ffb16d,27.95,0.714,1.0,red
+faded purple,#916e99,288.84,0.516,0.174,violet
+darker blue,#011288,232.44,0.269,0.985,azure
+cerise,#de0c62,335.43,0.459,0.897,rose
+khaki green,#728639,75.58,0.375,0.403,yellow
+burnt red,#9f2305,11.69,0.322,0.939,red
+light forest green,#4f9153,123.64,0.439,0.295,green
+violet blue,#510ac9,262.3,0.414,0.905,blue
+pale lavender,#eecffe,279.57,0.904,0.959,violet
+acid green,#8ffe09,87.18,0.516,0.992,yellow
+purple grey,#866f85,302.61,0.48,0.094,grey
+lemon,#fdff52,60.69,0.661,1.0,yellow
+bright orange,#ff5b00,21.41,0.5,1.0,red
+soft green,#6fc276,125.06,0.598,0.405,green
+blush,#f29e8e,9.6,0.753,0.794,red
+yellowish brown,#9b7a01,47.14,0.306,0.987,orange
+fluorescent green,#08ff08,120.0,0.516,1.0,green
+electric purple,#aa23ff,276.82,0.569,1.0,violet
+steel,#738595,208.24,0.518,0.138,cyan
+dull orange,#d8863b,28.66,0.539,0.668,red
+muddy green,#657432,73.64,0.325,0.398,yellow
+marigold,#fcc006,45.37,0.506,0.976,orange
+ocean,#017b92,189.52,0.288,0.986,cyan
+light mauve,#c292a1,341.25,0.667,0.282,rose
+bordeaux,#7b002c,338.54,0.241,1.0,rose
+light blue green,#7efbb3,145.44,0.739,0.94,green
+yellowish,#faee66,55.14,0.69,0.937,orange
+snot green,#9dc100,71.19,0.378,1.0,yellow
+light lime green,#b9ff66,87.45,0.7,1.0,yellow
+drab green,#749551,89.12,0.451,0.296,yellow
+faded blue,#658cbb,212.79,0.565,0.387,azure
+dark forest green,#002d04,125.33,0.088,1.0,green
+hot purple,#cb00f5,289.71,0.48,1.0,violet
+dark maroon,#3c0008,352.0,0.118,1.0,rose
+brown green,#706c11,57.47,0.253,0.736,orange
+swamp green,#748500,67.67,0.261,1.0,yellow
+light indigo,#6d5acf,249.74,0.582,0.549,blue
+purpley blue,#5f34e7,254.41,0.555,0.789,blue
+lightish blue,#3d7afd,220.94,0.616,0.98,azure
+teal blue,#01889f,188.73,0.314,0.988,cyan
+denim blue,#3b5b92,217.93,0.402,0.424,azure
+dark lime green,#7ebd01,80.11,0.373,0.989,yellow
+dull yellow,#eedc5b,52.65,0.645,0.812,orange
+pistachio,#c0fa8b,91.35,0.763,0.917,chartreuse
+lemon yellow,#fdff38,60.6,0.61,1.0,yellow
+red violet,#9e0168,320.64,0.312,0.987,magenta
+dusky pink,#cc7a8b,347.56,0.639,0.446,rose
+dirt,#8a6e45,35.65,0.406,0.333,orange
+very dark green,#062e03,115.81,0.096,0.878,chartreuse
+medium purple,#9e43a2,297.47,0.449,0.415,violet
+shit,#7f5f00,44.88,0.249,1.0,orange
+dark mustard,#a88905,48.59,0.339,0.942,orange
+pea soup green,#94a617,67.55,0.371,0.757,yellow
+bubblegum pink,#fe83cc,324.39,0.755,0.984,magenta
+barbie pink,#fe46a5,329.02,0.635,0.989,magenta
+military green,#667c3e,81.29,0.365,0.333,yellow
+pale teal,#82cbb2,159.45,0.653,0.412,teal
+bronze,#a87900,43.21,0.329,1.0,orange
+pinky red,#fc2647,350.75,0.569,0.973,rose
+dull red,#bb3f3f,0.0,0.49,0.496,red
+darkish blue,#014182,210.23,0.257,0.985,azure
+bluish,#2976bb,208.36,0.447,0.64,cyan
+dark gold,#b59410,48.0,0.386,0.838,orange
+yellowy green,#bff128,74.93,0.551,0.878,yellow
+pine,#2b5d34,130.8,0.267,0.368,green
+dark blue green,#005249,173.41,0.161,1.0,teal
+dirty pink,#ca7b80,356.2,0.637,0.427,rose
+slate green,#658d6d,132.0,0.475,0.165,green
+prussian blue,#004577,205.21,0.233,1.0,cyan
+bright violet,#ad0afd,280.25,0.516,0.984,violet
+lighter purple,#a55af4,269.22,0.655,0.875,blue
+steel grey,#6f828a,197.78,0.488,0.108,grey
+russet,#a13905,20.0,0.325,0.94,red
+vermillion,#f4320c,9.83,0.502,0.913,red
+greyish brown,#7a6a4f,37.67,0.394,0.214,orange
+red purple,#820747,328.78,0.269,0.898,magenta
+red pink,#fa2a55,347.6,0.573,0.954,rose
+bright turquoise,#0ffef9,178.74,0.527,0.992,teal
+golden brown,#b27a01,41.02,0.351,0.989,orange
+cerulean blue,#056eee,212.96,0.476,0.959,azure
+soft blue,#6488ea,223.88,0.655,0.761,azure
+easter green,#8cfd7e,113.39,0.743,0.969,chartreuse
+amber,#feb308,41.71,0.514,0.992,orange
+mid blue,#276ab3,211.29,0.427,0.642,azure
+shit brown,#7b5804,42.35,0.249,0.937,orange
+hospital green,#9be5aa,132.16,0.753,0.587,green
+purpleish blue,#6140ef,251.31,0.594,0.845,blue
+purply blue,#661aee,261.51,0.518,0.862,blue
+silver,#c5c9c7,150.0,0.78,0.036,grey
+sickly green,#94b21c,72.0,0.404,0.728,yellow
+melon,#ff7855,12.35,0.667,1.0,red
+dusky rose,#ba6873,351.95,0.569,0.373,rose
+brown orange,#b96902,33.77,0.367,0.979,orange
+darkish green,#287c37,130.71,0.322,0.512,green
+cranberry,#9e003a,337.97,0.31,1.0,rose
+purpleish,#98568d,310.0,0.467,0.277,magenta
+ecru,#feffca,61.13,0.896,1.0,yellow
+darker purple,#5f1b6b,291.0,0.263,0.597,violet
+mocha,#9d7651,29.21,0.467,0.319,red
+bright magenta,#ff08e8,305.59,0.516,1.0,magenta
+coffee,#a6814c,35.33,0.475,0.372,orange
+sepia,#985e2b,28.07,0.382,0.559,red
+faded red,#d3494e,357.83,0.557,0.611,rose
+canary yellow,#fffe40,59.69,0.625,1.0,orange
+bluey purple,#6241c7,254.78,0.518,0.545,blue
+pastel yellow,#fffe71,59.58,0.722,1.0,orange
+pale turquoise,#a5fbd5,153.49,0.816,0.915,teal
+greyish pink,#c88d94,352.88,0.669,0.349,rose
+marine,#042e60,212.61,0.196,0.92,azure
+purplish grey,#7a687f,286.96,0.453,0.1,grey
+camel,#c69f59,38.53,0.563,0.489,orange
+brownish grey,#86775f,36.92,0.449,0.17,orange
+burnt yellow,#d5ab09,47.65,0.435,0.919,orange
+cherry red,#f7022a,350.2,0.488,0.984,rose
+orangey brown,#b16002,32.23,0.351,0.978,orange
+soft pink,#fdb0c0,347.53,0.841,0.951,rose
+dark sea green,#11875d,158.64,0.298,0.776,teal
+aqua marine,#2ee8bb,165.48,0.545,0.802,teal
+robin egg blue,#8af1fe,186.72,0.769,0.983,cyan
+light sea green,#98f6b0,135.32,0.78,0.839,green
+mud brown,#60460f,40.74,0.218,0.73,orange
+sandstone,#c9ae74,40.94,0.622,0.44,orange
+british racing green,#05480d,127.16,0.151,0.87,green
+faded pink,#de9dac,346.15,0.743,0.496,rose
+maize,#f4d054,46.5,0.643,0.879,orange
+ocre,#c69c04,47.01,0.396,0.96,orange
+orange yellow,#ffad01,40.63,0.502,1.0,orange
+dark khaki,#9b8f55,49.71,0.471,0.292,orange
+light lime,#aefd6c,92.69,0.708,0.973,chartreuse
+bright light blue,#26f7fd,181.67,0.571,0.982,cyan
+jade green,#2baf6a,148.64,0.427,0.606,green
+barney,#ac1db8,295.35,0.418,0.728,violet
+adobe,#bd6c48,18.46,0.512,0.47,red
+minty green,#0bf77d,148.98,0.506,0.937,green
+light navy blue,#2e5a88,210.67,0.357,0.495,azure
+dusty green,#76a973,116.67,0.557,0.239,chartreuse
+very dark blue,#000133,238.82,0.1,1.0,azure
+ocean green,#3d9973,155.22,0.42,0.43,teal
+mustard green,#a8b504,64.41,0.363,0.957,yellow
+poop brown,#7a5901,43.64,0.241,0.984,orange
+olive brown,#645403,50.1,0.202,0.942,orange
+pink red,#f5054f,341.5,0.49,0.96,rose
+light navy,#155084,208.11,0.3,0.725,cyan
+very light purple,#f6cefc,292.17,0.898,0.885,violet
+ivory,#ffffcb,60.0,0.898,1.0,yellow
+bright lavender,#c760ff,278.87,0.688,1.0,violet
+bright aqua,#0bf9ea,176.22,0.51,0.952,teal
+robin's egg,#6dedfd,186.67,0.71,0.973,cyan
+muted green,#5fa052,110.0,0.475,0.322,chartreuse
+medium brown,#7f5112,34.68,0.284,0.752,orange
+copper,#b66325,25.66,0.429,0.662,red
+dark lime,#84b701,76.81,0.361,0.989,yellow
+strawberry,#fb2943,352.57,0.573,0.963,rose
+dirt brown,#836539,35.68,0.369,0.394,orange
+celery,#c1fd95,94.62,0.788,0.963,chartreuse
+bright sky blue,#02ccfe,191.9,0.502,0.992,cyan
+poo brown,#885f01,41.78,0.269,0.985,orange
+pinkish brown,#b17261,12.75,0.537,0.339,red
+celadon,#befdb7,114.0,0.855,0.946,chartreuse
+bright lime green,#65fe08,97.32,0.514,0.992,chartreuse
+auburn,#9a3001,18.43,0.304,0.987,red
+shocking pink,#fe02a2,321.9,0.502,0.992,magenta
+mulberry,#920a4e,330.0,0.306,0.872,rose
+carolina blue,#8ab8fe,216.21,0.769,0.983,azure
+lightish green,#61e160,119.53,0.629,0.683,chartreuse
+light lilac,#edc8ff,280.36,0.892,1.0,violet
+pale olive,#b9cc81,75.2,0.653,0.424,yellow
+pumpkin orange,#fb7d07,29.02,0.506,0.968,red
+yellow ochre,#cb9d06,45.99,0.41,0.943,orange
+fire engine red,#fe0002,359.53,0.498,1.0,rose
+deep sky blue,#0d75f8,213.45,0.512,0.944,azure
+watermelon,#fd4659,353.77,0.633,0.979,rose
+bottle green,#044a05,120.86,0.153,0.897,green
+very dark purple,#2a0134,288.24,0.104,0.962,violet
+wheat,#fbdd7e,45.6,0.739,0.94,orange
+murky green,#6c7a0e,67.78,0.267,0.794,yellow
+brownish purple,#76424e,346.15,0.361,0.283,rose
+kermit green,#5cb200,88.99,0.349,1.0,yellow
+primary blue,#0804f9,240.98,0.496,0.968,blue
+orangey red,#fa4224,8.41,0.561,0.955,red
+pale lilac,#e4cbff,268.85,0.898,1.0,blue
+rust red,#aa2704,12.65,0.341,0.954,red
+dirty orange,#c87606,34.64,0.404,0.942,orange
+pinkish grey,#c8aca9,5.81,0.724,0.22,red
+light plum,#9d5783,322.29,0.478,0.287,magenta
+greeny blue,#42b395,164.07,0.48,0.461,teal
+dark navy,#000435,235.47,0.104,1.0,azure
+pink/purple,#ef1de7,302.29,0.525,0.868,magenta
+irish green,#019529,136.22,0.294,0.987,green
+baby poop,#937c00,50.61,0.288,1.0,orange
+slime green,#99cc04,75.3,0.408,0.962,yellow
+purplish red,#b0054b,335.44,0.355,0.945,rose
+rouge,#ab1239,344.71,0.371,0.81,rose
+light rose,#ffc5cb,353.79,0.886,1.0,rose
+drab,#828344,60.95,0.39,0.317,yellow
+dark navy blue,#00022e,237.39,0.09,1.0,azure
+light yellow green,#ccfd7f,83.33,0.745,0.969,yellow
+easter purple,#c071fe,273.62,0.72,0.986,violet
+snot,#acbb0d,65.17,0.392,0.87,yellow
+light salmon,#fea993,12.34,0.786,0.982,red
+purpley pink,#c83cb9,306.43,0.51,0.56,magenta
+poo,#8f7303,48.0,0.286,0.959,orange
+berry,#990f4b,333.91,0.329,0.821,rose
+medium grey,#7d7f7c,100.0,0.492,0.012,grey
+brown red,#922b05,16.17,0.296,0.934,red
+blood,#770001,359.5,0.233,1.0,rose
+soft purple,#a66fb5,287.14,0.573,0.321,violet
+grey pink,#c3909b,347.06,0.665,0.298,rose
+bluey green,#2bb179,154.93,0.431,0.609,teal
+midnight,#03012d,242.73,0.09,0.957,blue
+dark indigo,#1f0954,257.6,0.182,0.806,blue
+warm grey,#978a84,18.95,0.555,0.084,grey
+sandy brown,#c4a661,41.82,0.575,0.456,orange
+cherry,#cf0234,345.37,0.41,0.981,rose
+blue/purple,#5a06ef,261.63,0.48,0.951,blue
+gunmetal,#536267,195.0,0.365,0.108,grey
+deep violet,#490648,300.9,0.155,0.848,magenta
+tree green,#2a7e19,109.9,0.296,0.669,chartreuse
+orangish brown,#b25f03,31.54,0.355,0.967,orange
+shamrock green,#02c14d,143.56,0.382,0.979,green
+orangish red,#f43605,12.3,0.488,0.96,red
+greeny yellow,#c6f808,72.5,0.502,0.945,yellow
+ugly yellow,#d0c101,55.65,0.41,0.99,orange
+french blue,#436bad,217.36,0.471,0.442,azure
+dusky purple,#895b7b,318.26,0.447,0.202,magenta
+butter yellow,#fffd74,59.14,0.727,1.0,orange
+light beige,#fffeb6,59.18,0.857,1.0,orange
+golden,#f5bf03,46.61,0.486,0.976,orange
+dusky blue,#475f94,221.3,0.429,0.352,azure
+lightblue,#7bc8f6,202.44,0.724,0.872,cyan
+purply pink,#f075e6,304.88,0.7,0.804,magenta
+off green,#6ba353,102.0,0.482,0.325,chartreuse
+ocher,#bf9b0c,47.93,0.398,0.882,orange
+milk chocolate,#7f4e1e,29.69,0.308,0.618,red
+light peach,#ffd8b1,30.0,0.847,1.0,orange
+deep magenta,#a0025c,325.82,0.318,0.975,magenta
+caramel,#af6f09,36.87,0.361,0.902,orange
+greenish teal,#32bf84,154.89,0.473,0.585,teal
+pale lime,#befd73,87.39,0.722,0.972,yellow
+purple red,#990147,332.37,0.302,0.987,rose
+blueberry,#464196,243.53,0.422,0.395,blue
+asparagus,#77ab56,96.71,0.504,0.336,chartreuse
+pale grey,#fdfdfe,240.0,0.994,0.333,grey
+light grey blue,#9dbcd4,206.18,0.724,0.39,cyan
+pale lime green,#b1ff65,90.39,0.698,1.0,chartreuse
+grassy green,#419c03,95.69,0.312,0.962,chartreuse
+mossy green,#638b27,84.0,0.349,0.562,yellow
+earth,#a2653e,23.4,0.439,0.446,red
+deep orange,#dc4d01,20.82,0.433,0.991,red
+pale aqua,#b8ffeb,163.1,0.861,1.0,teal
+rose red,#be013c,341.27,0.375,0.99,rose
+stone,#ada587,47.37,0.604,0.188,orange
+rusty orange,#cd5909,24.49,0.42,0.916,red
+pea,#a4bf20,70.19,0.437,0.713,yellow
+sick green,#9db92c,71.91,0.449,0.616,yellow
+darker pink,#c4387f,329.57,0.494,0.556,magenta
+chestnut,#742802,20.0,0.231,0.966,red
+blue/green,#0f9b8e,174.43,0.333,0.824,teal
+amethyst,#9b5fc0,277.11,0.563,0.435,violet
+dark mint green,#20c073,151.12,0.439,0.714,teal
+pale rose,#fdc1c5,356.0,0.875,0.938,rose
+muted blue,#3b719f,207.6,0.427,0.459,cyan
+fawn,#cfaf7b,37.14,0.647,0.467,orange
+buff,#fef69e,55.0,0.808,0.98,orange
+turquoise green,#04f489,153.25,0.486,0.968,teal
+muddy brown,#886806,45.23,0.278,0.915,orange
+sea,#3c9992,175.48,0.418,0.437,teal
+tomato,#ef4026,7.76,0.543,0.863,red
+carnation pink,#ff7fa7,341.25,0.749,1.0,rose
+banana,#ffff7e,60.0,0.747,1.0,yellow
+neon yellow,#cfff04,71.47,0.508,1.0,yellow
+greyish,#a8a495,47.37,0.622,0.098,grey
+mid green,#50a747,114.38,0.467,0.403,chartreuse
+muted purple,#805b87,290.45,0.443,0.195,violet
+electric pink,#ff0490,326.53,0.508,1.0,magenta
+sandy,#f1da7a,48.4,0.712,0.81,orange
+ugly pink,#cd7584,349.77,0.631,0.468,rose
+turquoise blue,#06b1c4,186.0,0.396,0.941,cyan
+light burgundy,#a8415b,344.85,0.457,0.442,rose
+greenish tan,#bccb7a,71.11,0.637,0.438,yellow
+dark mint,#48c072,141.0,0.518,0.488,green
+light urple,#b36ff6,270.22,0.7,0.882,violet
+midnight purple,#280137,283.33,0.11,0.964,violet
+pinkish orange,#ff724c,12.74,0.649,1.0,red
+pear,#cbf85f,77.65,0.673,0.916,yellow
+dark plum,#3f012c,318.39,0.125,0.969,magenta
+tealish,#24bca8,172.11,0.439,0.679,teal
+perrywinkle,#8f8ce7,241.98,0.727,0.655,blue
+yellowish orange,#ffab0f,39.0,0.529,1.0,orange
+pastel orange,#ff964f,24.2,0.655,1.0,red
+iris,#6258c4,245.56,0.557,0.478,blue
+ultramarine blue,#1805db,245.33,0.439,0.955,blue
+navy green,#35530a,84.66,0.182,0.785,yellow
+seaweed,#18d17b,152.11,0.457,0.794,teal
+kiwi,#9cef43,88.95,0.6,0.843,yellow
+fluro green,#0aff02,118.1,0.504,1.0,chartreuse
+bright light green,#2dfe54,131.2,0.586,0.991,green
+vivid green,#2fef10,111.66,0.5,0.875,chartreuse
+frog green,#58bc08,93.33,0.384,0.918,chartreuse
+dull brown,#876e4b,35.0,0.412,0.286,orange
+dusk,#4e5481,232.94,0.406,0.246,azure
+mustard brown,#ac7e04,43.57,0.345,0.955,orange
+leafy green,#51b73b,109.35,0.475,0.512,chartreuse
+cool blue,#4984b8,208.11,0.504,0.439,cyan
+almost black,#070d0d,180.0,0.039,0.3,grey
+yellow/green,#c8fd3d,76.56,0.616,0.98,yellow
+heliotrope,#d94ff5,289.88,0.635,0.892,violet
+green apple,#5edc1f,100.0,0.492,0.753,chartreuse
+baby poop green,#8f9805,63.67,0.308,0.936,yellow
+apple,#6ecb3c,99.02,0.516,0.579,chartreuse
+purpleish pink,#df4ec8,309.52,0.59,0.694,magenta
+night blue,#040348,240.87,0.147,0.92,blue
+merlot,#730039,330.26,0.225,1.0,rose
+lightgreen,#76ff7b,122.19,0.731,1.0,green
+tomato red,#ec2d01,11.23,0.465,0.992,red
+key lime,#aeff6e,93.52,0.716,1.0,chartreuse
+pale cyan,#b7fffa,175.83,0.859,1.0,teal
+vomit yellow,#c7c10c,58.07,0.414,0.886,orange
+purplish brown,#6b4247,352.68,0.339,0.237,rose
+bubblegum,#ff6cb5,330.2,0.712,1.0,rose
+shamrock,#01b44c,145.14,0.355,0.989,green
+mango,#ffa62b,34.81,0.584,1.0,orange
+lime yellow,#d0fe1d,72.27,0.555,0.991,yellow
+hot green,#25ff29,121.1,0.573,1.0,green
+grape purple,#5d1451,309.86,0.222,0.646,magenta
+faded orange,#f0944d,26.13,0.622,0.845,red
+avocado green,#87a922,75.11,0.398,0.665,yellow
+peacock blue,#016795,198.65,0.294,0.987,cyan
+weird green,#3ae57f,144.21,0.563,0.767,green
+bright lilac,#c95efb,280.89,0.676,0.952,violet
+fern green,#548d44,106.85,0.41,0.349,chartreuse
+dirty blue,#3f829d,197.23,0.431,0.427,cyan
+rust orange,#c45508,24.57,0.4,0.922,red
+heather,#a484ac,288.0,0.596,0.194,violet
+deep teal,#00555a,183.33,0.176,1.0,cyan
+dark seafoam,#1fb57a,156.4,0.416,0.708,teal
+baby poo,#ab9004,50.3,0.343,0.954,orange
+yellowgreen,#bbf90f,75.9,0.518,0.951,yellow
+light sage,#bcecac,105.0,0.8,0.627,chartreuse
+light aquamarine,#7bfdc7,155.08,0.737,0.97,teal
+spearmint,#1ef876,144.22,0.545,0.94,green
+bright lime,#87fd05,88.55,0.506,0.984,yellow
+vibrant green,#0add08,119.44,0.449,0.93,chartreuse
+very pale green,#cffdbc,102.46,0.865,0.942,chartreuse
+faded yellow,#feff7f,60.47,0.749,1.0,yellow
+bile,#b5c306,64.44,0.394,0.94,yellow
+viridian,#1e9167,158.09,0.343,0.657,teal
+very light pink,#fff4f2,9.23,0.975,1.0,grey
+puke brown,#947706,47.75,0.302,0.922,orange
+medium pink,#f36196,338.22,0.667,0.859,rose
+ugly purple,#a442a0,302.45,0.451,0.426,magenta
+sunshine yellow,#fffd37,59.4,0.608,1.0,orange
+seaweed green,#35ad6b,147.0,0.443,0.531,green
+light periwinkle,#c1c6fc,234.92,0.873,0.908,azure
+lemon green,#adf802,78.29,0.49,0.984,yellow
+greeny brown,#696006,54.55,0.218,0.892,orange
+dark grey blue,#29465b,205.2,0.259,0.379,cyan
+bright olive,#9cbb04,70.16,0.375,0.958,yellow
+turtle green,#75b84f,98.29,0.516,0.425,chartreuse
+pale sky blue,#bdf6fe,187.38,0.869,0.97,cyan
+light mustard,#f7d560,46.49,0.673,0.904,orange
+diarrhea,#9f8303,49.23,0.318,0.963,orange
+dark aquamarine,#017371,178.95,0.227,0.983,teal
+brownish pink,#c27e79,4.11,0.618,0.374,red
+baby shit green,#889717,67.03,0.341,0.736,yellow
+purpley,#8756e4,260.7,0.616,0.724,blue
+greyblue,#77a1b5,199.35,0.588,0.295,cyan
+hot magenta,#f504c9,310.95,0.488,0.968,magenta
+blue/grey,#758da3,208.7,0.549,0.2,cyan
+pale,#fff9d0,52.34,0.908,1.0,orange
+cool green,#33b864,142.11,0.461,0.566,green
+sandy yellow,#fdee73,53.48,0.722,0.972,orange
+eggshell blue,#c4fff7,171.86,0.884,1.0,teal
+barf green,#94ac02,68.47,0.341,0.977,yellow
+baby green,#8cff9e,129.39,0.775,1.0,green
+vibrant purple,#ad03de,286.58,0.441,0.973,violet
+brown grey,#8d8468,45.41,0.48,0.151,orange
+water blue,#0e87cc,201.79,0.427,0.872,cyan
+lipstick red,#c0022f,345.79,0.38,0.979,rose
+banana yellow,#fafe4b,61.34,0.645,0.989,yellow
+wisteria,#a87dc2,277.39,0.625,0.361,violet
+purple brown,#673a3f,353.33,0.316,0.28,rose
+brown yellow,#b29705,50.64,0.359,0.945,orange
+purple/pink,#d725de,297.73,0.508,0.737,violet
+lemon lime,#bffe28,77.66,0.576,0.991,yellow
+grey/blue,#647d8e,204.29,0.475,0.174,cyan
+dusty red,#b9484e,356.81,0.504,0.447,rose
+deep rose,#c74767,345.0,0.529,0.533,rose
+dark seafoam green,#3eaf76,149.73,0.465,0.477,green
+muddy yellow,#bfac05,53.87,0.384,0.949,orange
+carnation,#fd798f,350.0,0.733,0.971,rose
+yellowy brown,#ae8b0c,47.04,0.365,0.871,orange
+violet red,#a50055,329.09,0.324,1.0,magenta
+twilight blue,#0a437a,209.46,0.259,0.848,cyan
+pure blue,#0203e2,239.73,0.447,0.982,azure
+lightish red,#fe2f4a,352.17,0.59,0.99,rose
+brick orange,#c14a09,21.2,0.396,0.911,red
+velvet,#750851,319.82,0.245,0.872,magenta
+sunflower,#ffc512,45.32,0.535,1.0,orange
+light mint green,#a6fbb2,128.47,0.818,0.914,green
+light grass green,#9af764,97.96,0.68,0.902,chartreuse
+lavender blue,#8b88f8,241.61,0.753,0.889,blue
+rusty red,#af2f0d,12.59,0.369,0.862,red
+lightish purple,#a552e6,273.65,0.612,0.747,violet
+dried blood,#4b0101,0.0,0.149,0.974,red
+light blue grey,#b7c9e2,214.88,0.802,0.426,azure
+leaf,#71aa34,88.98,0.435,0.532,yellow
+orangish,#fc824a,18.88,0.639,0.967,red
+pale olive green,#b1d27b,82.76,0.653,0.492,yellow
+off yellow,#f1f33f,60.67,0.6,0.882,yellow
+dusty orange,#f0833a,24.07,0.584,0.858,red
+butter,#ffff81,60.0,0.753,1.0,yellow
+royal,#0c1793,235.11,0.312,0.849,azure
+petrol,#005f6a,186.23,0.208,1.0,cyan
+greenish cyan,#2afeb7,159.91,0.58,0.991,teal
+duck egg blue,#c3fbf4,172.5,0.875,0.875,teal
+bubble gum pink,#ff69af,332.0,0.706,1.0,rose
+bluegrey,#85a3b2,200.0,0.61,0.226,cyan
+warm brown,#964e02,30.81,0.298,0.974,orange
+twilight,#4e518b,237.05,0.425,0.281,azure
+saffron,#feb209,41.39,0.516,0.992,orange
+purple/blue,#5d21d0,260.57,0.473,0.726,blue
+dark sand,#a88f59,41.01,0.504,0.312,orange
+vibrant blue,#0339f8,226.78,0.492,0.976,azure
+putty,#beae8a,41.54,0.643,0.286,orange
+lawn green,#4da409,93.68,0.339,0.896,chartreuse
+camouflage green,#4b6113,76.92,0.227,0.672,yellow
+blush pink,#fe828c,355.16,0.753,0.984,rose
+reddy brown,#6e1005,6.29,0.225,0.913,red
+darkish red,#a90308,358.19,0.337,0.965,rose
+algae green,#21c36f,148.89,0.447,0.711,green
+dark coral,#cf524e,1.86,0.559,0.573,red
+bright cyan,#41fdfe,180.32,0.625,0.99,cyan
+piss yellow,#ddd618,57.87,0.48,0.804,orange
+pastel red,#db5856,0.9,0.598,0.649,red
+greenish turquoise,#00fbb0,162.07,0.492,1.0,teal
+dark,#1b2431,215.45,0.149,0.289,azure
+ruby,#ca0147,339.1,0.398,0.99,rose
+poop green,#6f7c00,66.29,0.243,1.0,yellow
+orangered,#fe420f,12.8,0.527,0.992,red
+dandelion,#fedf08,52.44,0.514,0.992,orange
+claret,#680018,346.15,0.204,1.0,rose
+pale mauve,#fed0fc,302.61,0.906,0.958,magenta
+lipstick,#d5174e,342.63,0.463,0.805,rose
+rosa,#fe86a4,345.0,0.761,0.984,rose
+darkblue,#030764,237.53,0.202,0.942,azure
+tan brown,#ab7e4c,31.58,0.484,0.385,orange
+shit green,#758000,65.16,0.251,1.0,yellow
+red wine,#8c0034,337.71,0.275,1.0,rose
+pinky,#fc86aa,341.69,0.757,0.952,rose
+mud green,#606602,63.6,0.204,0.962,yellow
+light greenish blue,#63f7b4,152.84,0.678,0.902,teal
+dull teal,#5f9e8f,165.71,0.496,0.249,teal
+deep lavender,#8d5eb7,271.69,0.543,0.382,violet
+vivid blue,#152eff,233.59,0.541,1.0,azure
+raw umber,#a75e09,32.28,0.345,0.898,orange
+light mint,#b6ffbb,124.11,0.857,1.0,green
+light light blue,#cafffb,175.47,0.896,1.0,teal
+highlighter green,#1bfc06,114.88,0.506,0.976,chartreuse
+greeny grey,#7ea07a,113.68,0.553,0.167,chartreuse
+bluey grey,#89a0b0,204.62,0.614,0.198,cyan
+algae,#54ac68,133.64,0.502,0.346,green
+sap green,#5c8b15,83.9,0.314,0.737,yellow
+pale salmon,#ffb19a,13.66,0.802,1.0,red
+metallic blue,#4f738e,205.71,0.433,0.285,cyan
+ice,#d6fffa,172.68,0.92,1.0,teal
+gross green,#a0bf16,71.01,0.418,0.793,yellow
+dodger blue,#3e82fc,218.53,0.616,0.969,azure
+warm pink,#fb5581,344.1,0.659,0.954,rose
+light green blue,#56fca2,147.47,0.663,0.965,green
+flat green,#699d4c,98.52,0.457,0.348,chartreuse
+dark blue grey,#1f3b4d,203.48,0.212,0.426,cyan
+clay brown,#b2713d,26.67,0.469,0.49,red
+sand yellow,#fce166,49.2,0.694,0.962,orange
+grapefruit,#fd5956,1.08,0.665,0.977,red
+blood orange,#fe4b03,17.21,0.504,0.992,red
+very pale blue,#d6fffe,178.54,0.92,1.0,teal
+old pink,#c77986,350.0,0.627,0.411,rose
+neon red,#ff073a,347.66,0.514,1.0,rose
+golden rod,#f9bc08,44.81,0.504,0.953,orange
+plum purple,#4e0550,298.4,0.167,0.882,violet
+pale peach,#ffe5ad,40.98,0.839,1.0,orange
+green again,#16d43f,132.95,0.459,0.812,green
+dark yellow green,#728f02,72.34,0.284,0.972,yellow
+carmine,#9d0216,352.26,0.312,0.975,rose
+deep sea blue,#015482,201.4,0.257,0.985,cyan
+dark hot pink,#d90166,331.94,0.427,0.991,rose
+warm blue,#4b57db,235.0,0.576,0.667,azure
+light khaki,#e6f2a2,69.0,0.792,0.755,yellow
+icky green,#8fae22,73.29,0.408,0.673,yellow
+greenblue,#23c48b,158.76,0.453,0.697,teal
+dirty purple,#734a65,320.49,0.371,0.217,magenta
+rich blue,#021bf9,233.93,0.492,0.984,azure
+mushroom,#ba9e88,26.4,0.631,0.266,red
+flat blue,#3c73a8,209.44,0.447,0.474,cyan
+dark slate blue,#214761,204.38,0.255,0.492,cyan
+dark sage,#598556,116.17,0.429,0.215,chartreuse
+coral pink,#ff6163,359.24,0.69,1.0,rose
+true green,#089404,118.33,0.298,0.947,chartreuse
+darkish purple,#751973,301.3,0.278,0.648,magenta
+dark taupe,#7f684e,31.84,0.402,0.239,orange
+cool grey,#95a3a6,190.59,0.618,0.087,grey
+canary,#fdff63,60.77,0.694,1.0,yellow
+booger green,#96b403,70.17,0.359,0.967,yellow
+muted pink,#d1768f,343.52,0.641,0.497,rose
+hazel,#8e7618,47.8,0.325,0.711,orange
+dark royal blue,#02066f,237.8,0.222,0.965,azure
+vivid purple,#9900fa,276.72,0.49,1.0,violet
+racing green,#014600,119.14,0.137,1.0,chartreuse
+leather,#ac7434,32.0,0.439,0.536,orange
+green/blue,#01c08d,163.98,0.378,0.99,teal
+sunflower yellow,#ffda03,51.19,0.506,1.0,orange
+rich purple,#720058,313.68,0.224,1.0,magenta
+pale magenta,#d767ad,322.5,0.624,0.583,magenta
+light yellowish green,#c2ff89,91.02,0.769,1.0,chartreuse
+indigo blue,#3a18b1,253.33,0.394,0.761,blue
+dark fuchsia,#9d0759,327.2,0.322,0.915,magenta
+yellow tan,#ffe36e,48.41,0.716,1.0,orange
+wintergreen,#20f986,148.2,0.551,0.948,green
+violet pink,#fb5ffc,299.62,0.68,0.963,violet
+topaz,#13bbaf,175.71,0.404,0.816,teal
+seafoam blue,#78d1b6,161.8,0.645,0.492,teal
+light gold,#fddc5c,47.7,0.676,0.976,orange
+grey/green,#86a17d,105.0,0.561,0.161,chartreuse
+foam green,#90fda9,133.76,0.778,0.965,green
+creme,#ffffb6,60.0,0.857,1.0,yellow
+clear blue,#247afd,216.22,0.567,0.982,azure
+ugly blue,#31668a,204.27,0.367,0.476,cyan
+terracota,#cb6843,16.32,0.529,0.567,red
+very dark brown,#1d0200,4.14,0.057,1.0,grey
+straw,#fcf679,57.25,0.731,0.956,orange
+parchment,#fefcaf,58.48,0.841,0.975,orange
+orangey yellow,#fdb915,42.41,0.537,0.983,orange
+greyish teal,#719f91,161.74,0.533,0.193,teal
+sapphire,#2138ab,230.0,0.4,0.676,azure
+nice blue,#107ab0,200.25,0.376,0.833,cyan
+browny orange,#ca6b02,31.5,0.4,0.98,orange
+washed out green,#bcf5a6,103.29,0.806,0.798,chartreuse
+tiffany blue,#7bf2da,167.9,0.716,0.821,teal
+light seafoam,#a0febf,139.79,0.812,0.979,green
+light neon green,#4efd54,122.06,0.649,0.978,green
+light bright green,#53fe5c,123.16,0.661,0.988,green
+light bluish green,#76fda8,142.22,0.727,0.971,green
+rosy pink,#f6688e,343.94,0.686,0.888,rose
+peachy pink,#ff9a8a,8.21,0.771,1.0,red
+pale light green,#b1fc99,105.45,0.794,0.943,chartreuse
+old rose,#c87f89,351.78,0.641,0.399,rose
+fern,#63a950,107.19,0.488,0.357,chartreuse
+dusk blue,#26538d,213.79,0.351,0.575,azure
+camo,#7f8f4e,74.77,0.433,0.294,yellow
+burnt siena,#b75203,26.33,0.365,0.968,red
+tealish green,#0cdc73,149.71,0.455,0.897,green
+swamp,#698339,81.08,0.369,0.394,yellow
+sand brown,#cba560,38.69,0.586,0.507,orange
+rust brown,#8b3103,20.29,0.278,0.958,red
+orangeish,#fd8d49,22.67,0.639,0.978,red
+light royal blue,#3a2efe,243.46,0.588,0.99,blue
+cocoa,#875f42,25.22,0.394,0.343,red
+baby purple,#ca9bf7,270.65,0.788,0.852,violet
+raw sienna,#9a6200,38.18,0.302,1.0,orange
+radioactive green,#2cfa1f,116.44,0.551,0.956,chartreuse
+light pea green,#c4fe82,88.06,0.753,0.984,yellow
+cinnamon,#ac4f06,26.39,0.349,0.933,red
+squash,#f2ab15,40.72,0.516,0.895,orange
+charcoal grey,#3c4142,190.0,0.247,0.048,grey
+bright yellow green,#9dff00,83.06,0.5,1.0,yellow
+baby puke green,#b6c406,64.42,0.396,0.941,yellow
+poison green,#40fd14,108.67,0.535,0.983,chartreuse
+light lavendar,#efc0fe,285.48,0.875,0.969,violet
+indian red,#850e04,4.65,0.269,0.942,red
+dark cream,#fff39a,52.87,0.802,1.0,orange
+toupe,#c7ac7d,38.11,0.635,0.398,orange
+butterscotch,#fdb147,34.95,0.635,0.978,orange
+burple,#6832e3,258.31,0.543,0.76,blue
+tan green,#a9be70,76.15,0.592,0.375,yellow
+sun yellow,#ffdf22,51.31,0.567,1.0,orange
+pale gold,#fdde6c,47.17,0.708,0.973,orange
+light light green,#c8ffb0,101.77,0.845,1.0,chartreuse
+lichen,#8fb67b,99.66,0.598,0.288,chartreuse
+green/yellow,#b5ce08,67.58,0.42,0.925,yellow
+darkgreen,#054907,121.76,0.153,0.872,green
+azul,#1d5dec,221.45,0.52,0.845,azure
+sunny yellow,#fff917,58.45,0.545,1.0,orange
+sickly yellow,#d0e429,66.42,0.527,0.776,yellow
+kelley green,#009337,142.45,0.288,1.0,green
+bruise,#7e4071,312.58,0.373,0.326,magenta
+browny green,#6f6c0a,58.22,0.237,0.835,orange
+battleship grey,#6b7c85,200.77,0.471,0.108,grey
+off blue,#5684ae,208.64,0.51,0.352,cyan
+manilla,#fffa86,57.52,0.763,1.0,orange
+greenish beige,#c9d179,65.45,0.647,0.489,yellow
+deep brown,#410200,1.85,0.127,1.0,red
+darkish pink,#da467d,337.7,0.565,0.667,rose
+custard,#fffd78,59.11,0.735,1.0,orange
+ugly brown,#7d7103,54.1,0.251,0.953,orange
+stormy blue,#507b9c,206.05,0.463,0.322,cyan
+liliac,#c48efd,269.19,0.775,0.965,blue
+baby shit brown,#ad900d,49.12,0.365,0.86,orange
+reddish grey,#997570,7.32,0.52,0.167,red
+powder pink,#ffb2d0,336.62,0.849,1.0,rose
+eggplant purple,#430541,301.94,0.141,0.861,magenta
+egg shell,#fffcc4,56.95,0.884,1.0,orange
+very light brown,#d3b683,38.25,0.671,0.476,orange
+tea green,#bdf8a3,101.65,0.806,0.859,chartreuse
+orange pink,#ff6f52,10.06,0.661,1.0,red
+light grey green,#b7e1a1,99.38,0.757,0.516,chartreuse
+kiwi green,#8ee53f,91.45,0.573,0.761,chartreuse
+boring green,#63b365,121.5,0.545,0.345,green
+light pastel green,#b2fba5,110.93,0.816,0.915,chartreuse
+candy pink,#ff63e9,308.46,0.694,1.0,magenta
+purply,#983fb2,286.43,0.473,0.477,violet
+purpley grey,#947e94,300.0,0.537,0.093,grey
+dusty lavender,#ac86a8,306.32,0.6,0.186,magenta
+desert,#ccad60,42.78,0.588,0.514,orange
+deep lilac,#966ebd,270.38,0.586,0.374,violet
+pig pink,#e78ea5,344.49,0.731,0.65,rose
+olive yellow,#c2b709,56.43,0.398,0.911,orange
+light seafoam green,#a7ffb5,129.55,0.827,1.0,green
+light moss green,#a6c875,84.58,0.622,0.43,yellow
+lavender pink,#dd85d7,304.09,0.694,0.564,magenta
+deep aqua,#08787f,183.53,0.265,0.881,cyan
+bland,#afa88b,48.33,0.616,0.184,orange
+strong pink,#ff0789,328.55,0.514,1.0,magenta
+green teal,#0cb577,157.99,0.378,0.876,teal
+deep turquoise,#017374,180.52,0.229,0.983,cyan
+dark green blue,#1f6357,169.41,0.255,0.523,teal
+bright sea green,#05ffa6,158.64,0.51,1.0,teal
+booger,#9bb53c,72.89,0.473,0.502,yellow
+blue with a hint of purple,#533cc6,250.0,0.506,0.548,blue
+blue blue,#2242c7,228.36,0.457,0.708,azure
+windows blue,#3778bf,211.32,0.482,0.553,azure
+toxic green,#61de2a,101.67,0.518,0.732,chartreuse
+strong blue,#0c06f7,241.49,0.496,0.953,blue
+spruce,#0a5f38,152.47,0.206,0.81,teal
+pinkish tan,#d99b82,17.24,0.68,0.534,red
+macaroni and cheese,#efb435,40.97,0.573,0.853,orange
+grey teal,#5e9b8a,163.28,0.488,0.245,teal
+dusty teal,#4c9085,170.29,0.431,0.309,teal
+dark grass green,#388004,94.84,0.259,0.939,chartreuse
+cement,#a5a391,54.0,0.608,0.1,grey
+yellowish tan,#fcfc81,60.0,0.747,0.953,yellow
+warm purple,#952e8f,303.5,0.382,0.528,magenta
+tea,#65ab7c,139.71,0.533,0.294,green
+really light blue,#d4ffff,180.0,0.916,1.0,cyan
+nasty green,#70b23f,94.43,0.473,0.477,chartreuse
+light eggplant,#894585,303.53,0.404,0.33,magenta
+fresh green,#69d84f,108.61,0.578,0.637,chartreuse
+electric lime,#a8ff04,80.8,0.508,1.0,yellow
+dust,#b2996e,37.94,0.565,0.306,orange
+dark pastel green,#56ae57,120.68,0.51,0.352,green
+cloudy blue,#acc2d9,210.67,0.763,0.372,azure

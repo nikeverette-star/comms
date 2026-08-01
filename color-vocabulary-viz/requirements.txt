@@ -1,0 +1,8 @@
+# Runtime dependencies: NONE.
+# The library uses only the Python standard library
+#   (re, colorsys, math, json, csv, pathlib, collections, importlib.resources)
+# so `pip install color-vocabulary-viz-nikeverette` needs nothing else.
+#
+# For building and publishing the package (not required to *use* it):
+#   build
+#   twine

@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+# Distribution name (used by pip / PyPI). Hyphens here; the *import* name is
+# `colorviz` (underscores/letters only). PyPI names must be globally unique, so
+# if this one is taken, add a suffix (e.g. "-nikeverette") and re-upload.
+name = "color-vocabulary-viz-nikeverette"
+version = "0.1.0"
+description = "Two visualizations of the xkcd Color Survey: a dripping-paint chart and an interactive hue spiral."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Nicole Everette" }]
+keywords = ["dataviz", "color", "xkcd", "svg", "visualization"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Visualization",
+]
+# No runtime dependencies: the library uses only the Python standard library.
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/nikeverette-star/comms"
+Source = "https://github.com/nikeverette-star/comms"
+
+[project.scripts]
+# After install, `colorviz-build` regenerates both HTML charts in the cwd.
+colorviz-build = "colorviz.build:cli"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+# Bundle the color list inside the wheel so the library works after install.
+colorviz = ["xkcd_rgb.txt"]
